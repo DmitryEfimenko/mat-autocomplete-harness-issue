@@ -8,6 +8,7 @@ This package was generated to demonstrate an issue observed when trying to run a
 ## Steps to reproduce
 * In the console: `npm run test`
 * Make sure NOT to bring the opened Chrome window showing Jasmine tests into the visibility
+  - If it opens in front, quickly click on some other window to bring the Chrome window to the background
 * Observe: test succeeds
 * make a small change in test (change spec name) to trigger test re-run
 * Observe: test still succeeds
