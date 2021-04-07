@@ -1,0 +1,18 @@
+<h1>Simple Autocomplete - Failing unit test with harness</h1>
+
+<h2>Steps to reproduce:</h2>
+
+<ul>
+  <li>In the console: <code>npm run test</code></li>
+  <li>Make sure NOT to bring the opened Chrome window showing Jasmine tests into the visibility</li>
+  <li>Observe: test succeeds</li>
+  <li>make a small change in test (change spec name) to trigger test re-run</li>
+  <li>Observe: test still succeeds</li>
+  <li>Bring the Chrome window showing Jasmine tests into the visibility</li>
+  <li>Observe: test fail</li>
+</ul>
+
+<app-simple-autocomplete
+  [formControl]="control"
+  [options]="options">
+</app-simple-autocomplete>
