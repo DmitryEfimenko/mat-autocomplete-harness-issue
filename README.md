@@ -14,3 +14,8 @@ This package was generated to demonstrate an issue observed when trying to run a
 * Observe: test still succeeds
 * Bring the Chrome window showing Jasmine tests into the visibility
 * Observe: test fail
+
+## Recording
+
+https://user-images.githubusercontent.com/2098175/113951456-76f5b680-97c8-11eb-9893-5cca66ac1a8c.mp4
+
